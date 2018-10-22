@@ -1,0 +1,174 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h2 style="text-align:Left;">Jeux d'evasion</h2>
+    <h1 style="text-align:center; font-weight: bold; color:red;">Evadez-Vous</h1>
+    <h2 style="text-align:Right;">Escape Game</h2>
+    <br />
+    <h1  style="text-align:center;" class="lead">Control page</h1>
+</div>
+
+<script>
+    function OlympicShutdown() {
+            var objShell = new ActiveXObject("Shell.Application");
+            objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\OlympicShutdown.bat", "", "", "open", 1);
+        }
+    function OlympicReboot() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\OlympicReboot.bat", "", "", "open", 1);
+    }
+    function OlympicRestart() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\OlympicRestart.bat", "", "", "open", 1);
+    }
+    function AnneauxBypass() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\AnneauxBypass.bat", "", "", "open", 1);
+    }
+    function TelephoneBypass() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\TelephoneBypass.bat", "", "", "open", 1);
+    }
+    function FixationsBypass() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\FixationsBypass.bat", "", "", "open", 1);
+    }
+    function CarteMagnetiqueBypass() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\CarteMagnetiqueBypass.bat", "", "", "open", 1);
+    }
+
+
+    function BunkerShutdown() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\BunkerShutdown.bat", "", "", "open", 1);
+    }
+    function BunkerReboot() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\BunkerReboot.bat", "", "", "open", 1);
+    }
+    function BunkerRestart() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\BunkerRestart.bat", "", "", "open", 1);
+    }
+    function AirGunBypass() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\AirGunBypass.bat", "", "", "open", 1);
+    }
+    function LaserKeyBypass() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\LaserKeyBypass.bat", "", "", "open", 1);
+    }
+    function TVliftBypass() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\TVliftBypass.bat", "", "", "open", 1);
+    }
+
+    function AsileShutdown() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\AsileShutdown.bat", "", "", "open", 1);
+    }
+    function AsileReboot() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\AsileReboot.bat", "", "", "open", 1);
+    }
+    function AsileRestart() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\AsileRestart.bat", "", "", "open", 1);
+    }
+    function BoutonGacheBypass() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\BoutonGacheBypass.bat", "", "", "open", 1);
+    }
+    function PuceMagnetiqueBypass() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\PuceMagnetiqueBypass.bat", "", "", "open", 1);
+    }
+    function BalanceBypass() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\BalanceBypass.bat", "", "", "open", 1);
+    }
+    function BreakerBypass() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\BreakerBypass.bat", "", "", "open", 1);
+    }
+    function CamerasBypass() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\CamerasBypass.bat", "", "", "open", 1);
+    }
+    function RochesBypass() {
+        var objShell = new ActiveXObject("Shell.Application");
+        objShell.ShellExecute("C:\\inetpub\\wwwroot\\EV\\EV\\RochesBypass.bat", "", "", "open", 1);
+    }
+</script>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Chambre Olympique</h2>
+        <h3>Game</h3>
+        <button type="button" class="btn btn-danger" onclick="OlympicShutdown()"> Shutdown</button>
+        <button type="button" class="btn btn-warning" onclick="OlympicReboot()"> Reboot</button>
+        <button type="button" class="btn btn-success" onclick="OlympicRestart()"> Restart App</button>
+        <br />
+        <h3>Anneaux</h3>
+        <button type="button" class="btn btn-danger" onclick="AnneauxBypass()"> Bypass</button>
+        <br />
+        <h3>Telephone</h3>
+        <button type="button" class="btn btn-danger" onclick="TelephoneBypass()"> Bypass</button>
+        <br />
+        <h3>Fixations</h3>
+        <button type="button" class="btn btn-danger" onclick="FixationsBypass()"> Bypass</button>
+        <br />
+        <h3>Carte Magnetique</h3>
+        <button type="button" class="btn btn-danger" onclick="CarteMagnetiqueBypass()"> Bypass</button>
+    </div>
+    <div class="col-md-4">
+        <h2>Bunker du President</h2>
+        <h3>Game</h3>
+        <button type="button" class="btn btn-danger" onclick="BunkerShutdown()"> Shutdown</button>
+        <button type="button" class="btn btn-warning" onclick="BunkerReboot()"> Reboot</button>
+        <button type="button" class="btn btn-success" onclick="BunkerRestart()"> Restart App</button>
+        <br />
+        <h3>Air Gun</h3>
+        <button type="button" class="btn btn-danger" onclick="AirGunBypass()"> Bypass</button>
+        <br />
+        <h3>Laser Key</h3>
+        <button type="button" class="btn btn-danger" onclick="LaserKeyBypass()"> Bypass</button>
+        <br />
+        <h3>TV lift</h3>
+        <button type="button" class="btn btn-danger" onclick="TVliftBypass()"> Bypass</button>
+    </div>
+    <div class="col-md-4">
+        <h2>Asile</h2>
+        <h3>Game</h3>
+        <button type="button" class="btn btn-danger" onclick="AsileShutdown()"> Shutdown</button>
+        <button type="button" class="btn btn-warning" onclick="AsileReboot()"> Reboot</button>
+        <button type="button" class="btn btn-success" onclick="AsileRestart()"> Restart App</button>
+        <br />
+        <h3>Bouton Gache</h3>
+        <button type="button" class="btn btn-danger" onclick="BoutonGacheBypass()"> Bypass</button>
+        <br />
+        <h3>Puce Magnetique</h3>
+        <button type="button" class="btn btn-danger" onclick="PuceMagnetiqueBypass()"> Bypass</button>
+        <br />
+        <h3>Balance</h3>
+        <button type="button" class="btn btn-danger" onclick="BalanceBypass()"> Bypass</button>
+        <br />
+        <h3>Breaker</h3>
+        <button type="button" class="btn btn-danger" onclick="BreakerBypass()"> Bypass</button>
+        <br />
+        <h3>Cameras</h3>
+        <button type="button" class="btn btn-danger" onclick="CamerasBypass()"> Bypass</button>
+        <br />
+        <h3>Roches</h3>
+        <button type="button" class="btn btn-danger" onclick="RochesBypass()"> Bypass</button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <img src="~/LogoBW.png" alt="EV Logo">
+    </div>
+</div>
